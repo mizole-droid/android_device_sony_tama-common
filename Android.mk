@@ -6,7 +6,7 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifneq ($(filter akari xz2c akatsuki aurora,$(TARGET_DEVICE)),)
+ifneq ($(filter akari xz2c xz2c_dcm akatsuki akatsuki_dcm aurora,$(TARGET_DEVICE)),)
 include $(call all-makefiles-under,$(LOCAL_PATH))
 
 include $(CLEAR_VARS)
